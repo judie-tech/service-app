@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import { type Config } from "tailwindcss";
 
 const config: Config = {
   content: [
@@ -8,7 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      borderColor: {
+        border: "var(--border)",
+      },
       colors: {
+        primary: {
+          DEFAULT: "#E3B448", // Mustard Yellow
+          foreground: "#1A1A1A",
+        },
+        secondary: {
+          DEFAULT: "#CBD5E1", // Light gray for contrast
+          foreground: "#1A1A1A",
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -16,4 +27,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
