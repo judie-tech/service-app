@@ -123,7 +123,7 @@ const serviceCategories = [
         rating: 4.8,
         reviews: 542,
         image:
-          "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&q=80&w=1000",
+          "https://source.unsplash.com/1600x900/?long-distance-moving-truck-on-highway",
         basePrice: 1000,
         priceFactors: ["Distance", "Volume", "Insurance coverage"],
       },
@@ -151,12 +151,13 @@ const serviceCategories = [
         rating: 4.6,
         reviews: 245,
         image:
-          "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&q=80&w=1000",
+          "https://images.unsplash.com/photo-1600518464444-9154a4dea21e?auto=format&fit=crop&q=80&w=1000",
         basePrice: 100,
         priceFactors: ["Unit size", "Duration", "Climate control"],
       },
     ],
   },
+
   {
     id: "landscaping",
     name: "Landscaping and Lawn Care",
